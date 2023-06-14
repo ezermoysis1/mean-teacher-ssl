@@ -7,6 +7,7 @@ import torch
 import torchvision
 from torchvision.transforms import ColorJitter, GaussianBlur, RandomInvert
 from random import choice
+
 def gaussian_noise(batch):
     '''Add gaussian noise to the batch
     
