@@ -2,8 +2,7 @@ import numpy as np
 import torch
 import model_UNet
 from data.data_into_loaders import get_data
-from utils import evaluate_model
-
+from .utils import evaluate_model
 
 def evaluate_all_models():
     # hyper params to create the valid and test data sets
