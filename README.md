@@ -75,10 +75,6 @@ To evaluate all of the trained models run the following:
 ```bash
 python main_pt.py evaluate
 ```
-## Screenshots
-
-![App Screenshot](https://drive.google.com/file/d/181IWpOoN4Bx0Z-IoQHmCiypzm814sN6V/view?usp=sharing)
-
 
 ## Authors
 
