@@ -1,6 +1,6 @@
 from mean_teacher import mean_teacher_train
 from supervised import supervised_train
-from evaluate import evaluate_all_models
+from functions.evaluate import evaluate_all_models
 import sys
 
 
