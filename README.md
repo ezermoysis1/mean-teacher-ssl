@@ -13,6 +13,8 @@ Examining the performance of the semi-supervised learning algorithm, Mean Teache
 
 - Experiment 2: Two models were trained on 5%/95% and 10%/90% labeled/unlabelled splits, using Mean Teacher, with the objective to understand (iii) how reducing the number of labeled data in Mean Teacher models, affects their performance.
 
+!(images/my_pics.png)
+
 ## Setup
 
 ### Setting up a virtual environment
