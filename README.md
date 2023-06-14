@@ -52,6 +52,11 @@ pip install -r requirements.txt
     
 ## Use the code
 
+### Data
+
+The dataset used in this paper is The Oxford Pet III dataset. It contains a collection of 7,365 images of cats and dogs and their labels. There are image-level labels, specifying what animal (i.e. dog or cat) and breed is shown, and pixel-level
+labels, providing a semantic segmentation, referred to as "ground truth mask", of the input images. Click [here](hhttps://www.robots.ox.ac.uk/~vgg/data/pets/) to download the data.
+
 ### Train
 
 To train a model with with L = 25% labelled and (1-L) = 75% unlabelled data (referred to as 'M-25' in the report) use the following script. This also trains two benchmark supervised models only, with L% labelled data (referred to as 'M25L' or 'M-25L' in the report, and 100% data respectively ('MU' or M-100'). 
