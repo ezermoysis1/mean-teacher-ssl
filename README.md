@@ -16,6 +16,7 @@ Examining the performance of the semi-supervised learning algorithm, Mean Teache
 ![App Screenshot](/Users/ezermoysis/Documents/UCL/Applied Deep Learning/Group CW/group_007_pt/Mean-Teacher/images/my_pics.png) 
 ![Optional Text](../images/my_pics.png)
 
+![Project Logo](./images/my_pics.png)
 
 
 ## Setup
