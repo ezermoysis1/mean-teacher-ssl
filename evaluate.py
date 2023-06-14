@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import model_UNet
-from data_into_loaders import get_data
+from data.data_into_loaders import get_data
 from utils import evaluate_model
 
 

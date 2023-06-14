@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim import Adam
 import model_UNet
-from data_augmentation import augmentation
-from data_into_loaders import get_data
+from data.data_augmentation import augmentation
+from data.data_into_loaders import get_data
 from utils import dice_loss, wt, update_ema_variables, unsup_loss, evaluate_model
 
 
