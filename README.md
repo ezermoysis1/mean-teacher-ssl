@@ -9,11 +9,13 @@ Date: April 2023
 
 Examining the performance of the semi-supervised learning algorithm, Mean Teacher, for image semantic segmentation task on the Oxford Pet III dataset, through two experiments. 
 
-- Experiment 1: A model was trained on 25% labeled and 75% unlabelled data using Mean Teacher, aiming to study (i) how its performance improves with more (epochs) training and (ii) how its performance compares to supervised only training models. 
+- Experiment 1: A model was trained on 25% labeled and 75% unlabelled data using Mean Teacher, aiming to study (i) how its performance improves with more (epochs) training and (ii) how its performance compares to supervised only training models.
 
-- Experiment 2: Two models were trained on 5%/95% and 10%/90% labeled/unlabelled splits, using Mean Teacher, with the objective to understand (iii) how reducing the number of labeled data in Mean Teacher models, affects their performance.
+![Project Logo](./images/exp1_vfff.PNG)
 
-Comparative performance of all the models trained is shown below
+- Experiment 2: Two additional models were trained on 5%/95% and 10%/90% labeled/unlabelled splits, using Mean Teacher, with the objective to understand (iii) how reducing the number of labeled data in Mean Teacher models, affects their performance.
+
+Comparative performance of all the models trained is shown below:
 ![Project Logo](./images/my_pics.png)
 
 
