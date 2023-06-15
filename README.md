@@ -82,7 +82,7 @@ python main_pt.py evaluate
 ## Authors
 
 - [@ezermoysis1](https://github.com/ezermoysis1)
-
+- [@fclarke1](https://github.com/fclarke1)
 
 ## Documentation
 Please read the full report of the project [here](https://drive.google.com/file/d/1zX3HGt0AiCVF5MfM4lKS9Ag_boOhq-_c/view?usp=sharing)
