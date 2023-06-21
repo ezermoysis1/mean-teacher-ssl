@@ -348,4 +348,3 @@ def get_data(nb_labeled_data, nb_unlabeled_data, percentage_validation, percenta
     )
 
     return mixed_train_loader, val_loader, test_loader
-
