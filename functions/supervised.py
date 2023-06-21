@@ -9,8 +9,6 @@ from data.data_augmentation import augmentation
 from data.data_into_loaders import get_data
 from .utils import dice_loss, wt, update_ema_variables, unsup_loss, evaluate_model
 
-
-
 def supervised_train(pct_data):
     """
     Given the percentage of training dataset being used and labelled (the remaining train dataset will be not used)

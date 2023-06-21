@@ -19,7 +19,6 @@ def evaluate_all_models():
     model = model_UNet.UNet(in_channels=3, num_classes=2, depth=3)
     model.to(device)
 
-
     print('\nLOADING DATALOADER - can take a 1-5 mins to download and process data')
     print('Need dataloader to evaluate the models on the test dataset')
     _, _, test_loader = get_data(supervised_pct,1 - supervised_pct, val_pct, test_pct, batch_size=batch_size, img_resize=img_resize)

@@ -9,8 +9,6 @@ from data.data_augmentation import augmentation
 from data.data_into_loaders import get_data
 from .utils import dice_loss, wt, update_ema_variables, unsup_loss, evaluate_model
 
-
-
 def mean_teacher_train(supervised_pct):
     """
     Given the percentage of training dataset being labelled (the remaining train dataset will be unlabelled)

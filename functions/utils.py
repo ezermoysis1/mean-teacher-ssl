@@ -90,5 +90,3 @@ def evaluate_model(model, dataloader, device):
   
   model.train()
   return accuracy, iou
-
-
