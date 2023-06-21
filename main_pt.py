@@ -3,7 +3,6 @@ from supervised import supervised_train
 from functions.evaluate import evaluate_all_models
 import sys
 
-
 evaluate = False  # set default value for evaluate
 
 if len(sys.argv) > 1:
